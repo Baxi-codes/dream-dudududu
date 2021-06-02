@@ -1,0 +1,37 @@
+body {
+	margin:0;
+}
+#screen {
+	background:url(sprites/bg.jpg);
+	position: absolute;
+}
+.sprite {
+	display: none;
+}
+#health{
+	position: absolute;
+	color: white;
+	z-index: 1
+}
+
+#score{
+	position: absolute;
+	color: white;
+	z-index: 1;
+	width: 100%
+}
+#gameover {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	color: white;
+	align-items: center;
+	align-content: center;
+	display: none;
+	transform: translate(-50%,-50%);
+}
+#gotext{
+	-webkit-text-stroke-width: 1px !important;
+	-webkit-text-stroke-color: white !important;
+}
